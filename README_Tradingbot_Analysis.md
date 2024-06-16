@@ -61,6 +61,7 @@ This document details the process and results of tuning the baseline trading alg
     accuracy                           0.55      4092
    macro avg       0.50      0.50      0.41      4092
 weighted avg       0.51      0.55      0.45      4092
+```
 
 **Analysis:**
 
@@ -71,6 +72,7 @@ weighted avg       0.51      0.55      0.45      4092
 
 ### Predictions DataFrame
 
+```plaintext
 | Date                | Predicted | Actual Returns | Strategy Returns |
 |---------------------|-----------|----------------|------------------|
 | 2015-07-06 10:00:00 | 1.0       | -0.025715      | -0.025715        |
@@ -84,6 +86,7 @@ weighted avg       0.51      0.55      0.45      4092
 | 2021-01-22 13:45:00 | 1.0       | 0.002099       | 0.002099         |
 | 2021-01-22 14:30:00 | 1.0       | 0.001496       | 0.001496         |
 | 2021-01-22 15:45:00 | 1.0       | -0.000896      | -0.000896        |
+```
 
 ### Cumulative Returns Plot
 
